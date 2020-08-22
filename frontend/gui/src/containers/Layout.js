@@ -35,7 +35,8 @@ class CustomLayout extends React.Component {
       </Content>
       <Footer >
         <div className = "bottom">
-        2020 Agriculture Mobility and Efficiency PSME-UPSU AgriME
+        {//2020 Agriculture Mobility and Efficiency PSME-UPSU AgriME
+      }
           </div> </Footer>
     </Layout>
     ); 

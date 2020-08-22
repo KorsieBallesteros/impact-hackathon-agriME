@@ -27,6 +27,7 @@ class FarmerProfile extends React.Component{
                 number: this.state.farmernumber,                                                                                               
         }).then(res => console.log(res));
         //.catch(error => console.err(error));
+        alert("You have successfully registered!");
     };
 
     render(){

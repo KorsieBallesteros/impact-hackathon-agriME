@@ -347,7 +347,7 @@ label,
 select,
 textarea {
     display: block;
-    font-size: inherit;
+    font-size: 12 px;
     max-width: var(--width-card-wide);
 }
 
@@ -369,7 +369,7 @@ select,
 textarea {
     border: 1px solid var(--color-bg-secondary);
     border-radius: var(--border-radius);
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     padding: 0.4rem 0.4rem;
 }
 
@@ -380,8 +380,8 @@ textarea[readonly] {
 
 label {
     font-weight: bold;
-    margin-top: 0.15rem;
-    margin-bottom: 0.93rem;
+    margin-top: 0.55rem;
+    margin-bottom: 1.26rem;
 }
 
 /* Tables */
