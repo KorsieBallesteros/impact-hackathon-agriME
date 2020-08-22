@@ -1,0 +1,146 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 0.8;
+}
+
+
+.centered {
+   
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+ 
+
+}
+
+
+p {
+  margin: 0.75rem 0;
+  padding: 0;
+}
+
+a {
+color: var(--color-secondary);
+display: inline-block;
+font-weight: bold;
+text-decoration: none;
+}
+
+a:hover {
+filter: brightness(var(--hover-brightness));
+text-decoration: underline;
+}
+
+a b,
+a em,
+a i,
+a strong,
+button {
+border-radius: var(--border-radius);
+display: inline-block;
+font-size: medium;
+font-weight: bold;
+line-height: var(--line-height);
+margin: 0.5rem 0;
+padding: 0.5rem 2rem;
+}
+
+button {
+font-family: var(--font-family);
+}
+
+button:hover {
+cursor: pointer;
+filter: brightness(var(--hover-brightness));
+}
+
+a b,
+a strong,
+button {
+background-color: var(--color);
+border: 2px solid var(--color);
+color: var(--color-bg);
+}
+
+a em,
+a i {
+border: 2px solid var(--color);
+border-radius: var(--border-radius);
+color: var(--color);
+display: inline-block;
+padding: 1rem 2rem;
+}
+
+
+.rice
+{
+align-items: center;
+display:flex;
+flex-direction: row;
+width:1000px;
+height:100px;
+
+/* padding-left: 280px;*/
+align-content: center;
+
+}
+
+.rice > div
+{
+flex:1 1 auto;
+text-align:center;
+border: 1.5px green solid;
+border-radius: 10%;
+margin:10px; 
+padding: 10px; /* and that, will result in a 10px gap */
+}
+
+.seafood
+{
+align-items: center;
+display:flex;
+flex-direction: row;
+width:600px;
+height:100px;
+
+/* padding-left: 280px;*/
+align-content: center;
+
+}
+
+.seafood > div
+{
+flex:1 1 auto;
+text-align:center;
+border: 1.5px rgb(0, 149, 194) solid;
+border-radius: 10%;
+margin:10px; 
+padding: 10px; /* and that, will result in a 10px gap */
+}
+
+.vegfruit
+{
+align-items: center;
+display:flex;
+flex-direction: row;
+width:1000px;
+height:100px;
+
+/* padding-left: 280px;*/
+align-content: center;
+
+}
+
+.vegfruit > div
+{
+flex:1 1 auto;
+text-align:center;
+border: 1.5px rgb(231, 170, 0) solid;
+border-radius: 10%;
+margin:10px; 
+padding: 10px; /* and that, will result in a 10px gap */
+}

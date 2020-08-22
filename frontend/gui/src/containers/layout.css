@@ -1,0 +1,10 @@
+
+.bottom{
+position: absolute; 
+bottom: 20px;
+margin-left: -200px;
+
+}
+p {
+    text-align: center;
+}
